@@ -40,4 +40,18 @@ $ npm run test:e2e
 $ npm run test:cov
 ```
 
+## Usage
+
+Make POST request to localhost:3000 with Body raw JSON
+
+```json
+{
+    "model": {
+        "openwinversion": "2.0.0",
+        "info": { "id": "3dfc8657-c2dc-450f-8d4c-017b85d25af7", "locale": "RU" },
+        ...
+    }
+}
+```
+
 OpenWinSpec is [MIT licensed](LICENSE).
